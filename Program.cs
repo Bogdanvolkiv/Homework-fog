@@ -21,3 +21,8 @@ for ( int i = 0; i < array.Length; i++)
         j++;
     }
 }
+
+for (int i = 0; i < array.Length; i++)
+{
+    Console.Write($"{newArray[i]}, ");
+}
