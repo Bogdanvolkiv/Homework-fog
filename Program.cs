@@ -8,4 +8,16 @@ for (int i = 0; i < array.Length; i++)
     {
         newSize++;
     }
+
+}
+string [] newArray = new string[newSize];
+Console.WriteLine("New Size = " + newSize);
+int j = 0;
+for ( int i = 0; i < array.Length; i++)
+{
+    if(array[i].Length <= maxLenght)
+    {
+        newArray[j] = array[i];
+        j++;
+    }
 }
